@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en" class="FullHeightElement" dir="ltr">
-	<head>
+	<head><script>
+  const domain = window.location.hostname;
+  const s = document.createElement("script");
+  s.defer = true;
+  s.setAttribute("data-domain", domain);
+  s.src = "https://plausible.io/js/script.js";
+  document.head.appendChild(s);
+</script>
 		<style>
 			body {
 				font-family: "Montserrat", sans-serif;
